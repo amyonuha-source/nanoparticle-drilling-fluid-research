@@ -4,7 +4,7 @@
 
 Data and reproducible analysis for nine water-based mud formulations that compare **titanium dioxide nanoparticles
 made from *Newbouldia laevis* leaf extract** against two conventional polymers, CMC and PACR, and against six CMC/PACR + TiO₂ blends.
-From the final-year project (Petroleum Engineering, Federal University of Technology, Owerri, 2025), carried out in a team of three.
+From the final-year project, carried out in a team of three.
 **My role:** I led the filtration-control testing across all formulations and controls.
 
 ![Filtration versus study targets](results/figures/fig1_filtration_vs_study_targets.png)
@@ -72,13 +72,8 @@ docs/              methodology.md · data_corrections.md
 - Low-pressure, ambient-temperature filtration only. No HPHT, aging or contamination testing.
 - Nanoparticle characterization (SEM, XRD, FTIR, EDX) is described in the project report's methods section, but no results from it are included here, so no claims are made about particle size, crystal phase or morphology.
 
-## What would turn this into a result
-
-Each item is something the current data cannot answer: a bentonite-only baseline; a dose-matched series (for example CMC and TiO₂ both at 1 g and 2 g);
-triplicate tests with a reported standard deviation; characterization data for the nanoparticles; HPHT filtration at the target temperature.
-
 ## Cite
 
 See [`CITATION.cff`](CITATION.cff). Code is MIT-licensed (see `LICENSE`).
 
-**Author:** Chiamaka Marycynthia Onuh, B.Eng Petroleum Engineering (First Class Honours), Federal University of Technology, Owerri.
+**Author:** Chiamaka Onuh, Federal University of Technology, Owerri.
