@@ -1,0 +1,18 @@
+file,column,description,unit,instrument_or_method,source
+filtration.csv,sample,Formulation ID (see formulations.csv),,,Thesis Table 4.1
+filtration.csv,filtrate_ml,Filtrate volume after 30 min,mL,API filter press (LPLT) 100 psi ~32 C filter paper,Thesis Table 4.1
+filtration.csv,mud_cake_32nd_in,Filter-cake thickness,1/32 inch,ruler/caliper (resolution not recorded),Thesis Table 4.1
+density.csv,density_ppg,Mud density,lb/gal (ppg),mud balance (reading resolution not recorded),Thesis Table 4.2
+ph.csv,filtrate_ph,pH of mud filtrate,pH units,litmus paper (approx. +/-0.5-1 unit),Thesis Table 4.5
+ph.csv,mud_cake_ph,pH of mud cake,pH units,litmus paper (approx. +/-0.5-1 unit),Thesis Table 4.5
+rheology_8speed.csv,sample,Formulation ID,,,Thesis Table 4.3
+rheology_8speed.csv,ramp,"up = increasing speed; down = decreasing speed; avg_reported = average as printed in thesis",,,Thesis Table 4.3
+rheology_8speed.csv,rpm,Rotor speed,rpm,8-speed rotational viscometer (model/bob-sleeve not recorded),Thesis Table 4.3
+rheology_8speed.csv,dial_reading,Dial reading (theta),dial degrees,8-speed rotational viscometer,Thesis Table 4.3
+pv_yp_gel_reported.csv,plastic_viscosity_cP,PV as printed in thesis (theta600 - theta300),cP,calculated,Thesis Table 4.4
+pv_yp_gel_reported.csv,yield_point_lb_100ft2,YP as printed in thesis (theta300 - PV),lb/100 ft2,calculated,Thesis Table 4.4
+pv_yp_gel_reported.csv,gel_10sec,Gel strength after 10 s rest,lb/100 ft2,rotational viscometer (3 rpm),Thesis Table 4.4
+pv_yp_gel_reported.csv,gel_10min,Gel strength after 10 min rest,lb/100 ft2,rotational viscometer (3 rpm),Thesis Table 4.4
+formulations.csv,cmc_g / pacr_g / tio2_g,Additive mass per 350 mL batch,g,balance,Thesis section 3.2.3.1 and Table 3.7
+formulations.csv,polymer_dose_fraction,Polymer mass divided by its 1 g reference dose,fraction,calculated,derived
+formulations.csv,tio2_dose_fraction,TiO2 mass divided by its 2 g reference dose,fraction,calculated,derived

@@ -1,0 +1,18 @@
+DATA INTEGRITY REPORT
+============================================================
+Averages vs mean(up, down): max |difference| = 0.50 dial units (rounding tolerance 0.5) -> OK
+
+PV / YP recomputed from raw dial readings vs thesis Table 4.4:
+  CMC       recomputed PV 14 / YP 33   thesis PV 14 / YP 33   OK
+  CT_75-25  recomputed PV 18 / YP 26   thesis PV 18 / YP 26   OK
+  CT_50-50  recomputed PV 12 / YP 36   thesis PV 12 / YP 36   OK
+  CT_25-75  recomputed PV 8 / YP 14   thesis PV 8 / YP 14   OK
+  TiO2      recomputed PV 11 / YP 24   thesis PV 11 / YP 24   OK
+  PT_25-75  recomputed PV 6 / YP 21   thesis PV 6 / YP 21   OK
+  PT_50-50  recomputed PV 20 / YP 36   thesis PV 10 / YP 46   MISMATCH
+  PT_75-25  recomputed PV 10 / YP 63   thesis PV 10 / YP 63   OK
+  PACR      recomputed PV 17 / YP 41   thesis PV 17 / YP 41   OK
+
+Known documented discrepancies: ['PT_50-50']
+Discrepancies found now:        ['PT_50-50']
+Status: matches documentation

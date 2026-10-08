@@ -1,0 +1,10 @@
+sample,filtrate_ml,cake_32nd,nominal_pass_both,robust_pass_both,possible_pass_both,verdict
+CMC,14.5,2.5,False,False,True,"nominal fail, but could pass at the favourable end"
+CT_75-25,15.8,3.0,False,False,False,fails under every tolerance case
+CT_50-50,15.0,3.0,False,False,False,fails under every tolerance case
+CT_25-75,15.0,3.0,False,False,False,fails under every tolerance case
+TiO2,13.7,2.0,True,False,True,"nominal pass, but fails if readings are at the unfavourable end"
+PT_25-75,15.8,3.0,False,False,False,fails under every tolerance case
+PT_50-50,16.1,4.0,False,False,False,fails under every tolerance case
+PT_75-25,14.8,4.0,False,False,False,fails under every tolerance case
+PACR,13.0,4.0,False,False,False,fails under every tolerance case

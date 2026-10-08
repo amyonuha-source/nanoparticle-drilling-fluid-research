@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "If you use this data or code, please cite it as below."
+title: "Green-synthesized TiO2 nanoparticles for drilling fluid loss control: data and analysis"
+type: dataset
+authors:
+  - family-names: Onuh
+    given-names: Chiamaka Marycynthia
+date-released: 2026-10-06
+license: MIT
+repository-code: "https://github.com/amyonuha-source/nanoparticle-drilling-fluid-research"
+abstract: "Filtration, density, pH and 8-speed rheology data for nine water-based drilling mud formulations (CMC, PACR, green-synthesized TiO2 and blends), with reproducible analysis."
